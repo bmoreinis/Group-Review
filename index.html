@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="globalVariables.js"></script>
+    <script src="script.js"></script>
+    <script src="webHelper.js"></script>
+    <script src="filesaver.js"></script>
+    <script src="mutual-aid-alerts.js"></script>
+  </head>
+  <body onload="displayWebMenu()">
+    <h1>Group Test Review</h1>
+    <div id="nav">
+      <div id="navbar">
+      </div>
+    </div>
+    <div id="input-area">
+      <div id="instructions">
+      </div>
+      <textArea id="inputs">
+      </textArea>
+    </div>
+    <div id="button-area">
+    </div>
+    <div id="alert-area">
+    </div>
+    <script>
+      var navbar = document.getElementById("navbar");
+      var inputArea = document.getElementById("input-area");
+      var instructions = document.getElementById("instructions");
+      var inputs = document.getElementById("inputs");
+      var buttonArea = document.getElementById("button-area");
+      var alertArea = document.getElementById("alert-area");
+      var playButton = document.getElementById("play");
+      var oldButton = document.getElementById("oldSystem");
+      var alertBox = document.createElement("dialog");
+      var spaceNum = 10;
+    </script>
+  </body>
+</html>
